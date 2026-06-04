@@ -1,16 +1,17 @@
 package com.muktasapp.noteslibapp.data
 
 import android.content.Context
+import io.appwrite.BuildConfig
 import io.appwrite.Client
 import io.appwrite.services.Account
 import io.appwrite.services.Databases
 import io.appwrite.services.Storage
 
 object AppwriteHelper {
-    const val ENDPOINT = "https://nyc.cloud.appwrite.io/v1" // Or your self-hosted endpoint
-    const val PROJECT_ID = "69a957cf0009b1572325"
-    const val DATABASE_ID = "69a959590014f2872aa1"
-    const val BUCKET_ID = "69a959b3003acb1015ef"
+    const val ENDPOINT = BuildConfig.APPWRITE_ENDPOINT
+    const val PROJECT_ID = BuildConfig.APPWRITE_PROJECT_ID
+    const val DATABASE_ID = BuildConfig.APPWRITE_DATABASE_ID
+    const val BUCKET_ID = BuildConfig.APPWRITE_BUCKET_ID
 //    const val APPWRITE_PROJECT_NAME = "Appwrite Project"
 
     // Collection IDs you will create in the Appwrite Console
