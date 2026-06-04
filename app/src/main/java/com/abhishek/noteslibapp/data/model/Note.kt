@@ -1,4 +1,4 @@
-package com.muktasapp.noteslibapp.data.model
+package com.abhishek.noteslibapp.data.model
 
 data class Note(
     val id: String = "",

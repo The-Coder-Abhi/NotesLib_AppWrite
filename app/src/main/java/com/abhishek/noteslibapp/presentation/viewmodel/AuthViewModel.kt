@@ -1,12 +1,10 @@
-package com.muktasapp.noteslibapp.presentation.viewmodel
+package com.abhishek.noteslibapp.presentation.viewmodel
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.muktasapp.noteslibapp.Result
-import com.muktasapp.noteslibapp.data.model.Users
-import com.muktasapp.noteslibapp.data.repository.AuthRepository
+import com.abhishek.noteslibapp.Result
+import com.abhishek.noteslibapp.data.model.Users
+import com.abhishek.noteslibapp.data.repository.AuthRepository
 import io.appwrite.exceptions.AppwriteException
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

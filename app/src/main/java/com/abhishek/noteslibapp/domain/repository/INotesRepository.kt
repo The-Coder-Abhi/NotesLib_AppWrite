@@ -1,12 +1,12 @@
-package com.muktasapp.noteslibapp.domain.repository
+package com.abhishek.noteslibapp.domain.repository
 
 import android.content.Context
 import android.net.Uri
-import com.muktasapp.noteslibapp.data.model.Chapter
-import com.muktasapp.noteslibapp.data.model.Note
-import com.muktasapp.noteslibapp.data.model.PdfFile
-import com.muktasapp.noteslibapp.data.model.Subject
-import com.muktasapp.noteslibapp.data.model.UnitItem
+import com.abhishek.noteslibapp.data.model.Chapter
+import com.abhishek.noteslibapp.data.model.Note
+import com.abhishek.noteslibapp.data.model.PdfFile
+import com.abhishek.noteslibapp.data.model.Subject
+import com.abhishek.noteslibapp.data.model.UnitItem
 
 interface INotesRepository {
     suspend fun createNote(name: String): Result<String>

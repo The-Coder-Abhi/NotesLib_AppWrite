@@ -1,7 +1,7 @@
-package com.muktasapp.noteslibapp.data
+package com.abhishek.noteslibapp.data
 
 import android.content.Context
-import io.appwrite.BuildConfig
+import com.abhishek.noteslibapp.BuildConfig
 import io.appwrite.Client
 import io.appwrite.services.Account
 import io.appwrite.services.Databases

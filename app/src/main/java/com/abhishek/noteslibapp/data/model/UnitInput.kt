@@ -1,4 +1,4 @@
-package com.muktasapp.noteslibapp.data.model
+package com.abhishek.noteslibapp.data.model
 
 data class UnitInput(
     var name: String = "",

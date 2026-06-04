@@ -1,4 +1,4 @@
-package com.muktasapp.noteslibapp
+package com.abhishek.noteslibapp
 
 import androidx.compose.ui.graphics.vector.ImageVector
 

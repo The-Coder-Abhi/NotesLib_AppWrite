@@ -1,17 +1,16 @@
-package com.muktasapp.noteslibapp.presentation.viewmodel
+package com.abhishek.noteslibapp.presentation.viewmodel
 
 import android.content.Context
 import android.net.Uri
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.muktasapp.noteslibapp.data.model.Chapter
-import com.muktasapp.noteslibapp.data.model.Note
-import com.muktasapp.noteslibapp.data.model.PdfFile
-import com.muktasapp.noteslibapp.data.model.Subject
-import com.muktasapp.noteslibapp.data.model.SubjectInput
-import com.muktasapp.noteslibapp.data.model.UnitItem
-import com.muktasapp.noteslibapp.data.repository.NotesRepository
-import com.muktasapp.noteslibapp.domain.repository.INotesRepository
+import com.abhishek.noteslibapp.data.model.Chapter
+import com.abhishek.noteslibapp.data.model.Note
+import com.abhishek.noteslibapp.data.model.PdfFile
+import com.abhishek.noteslibapp.data.model.Subject
+import com.abhishek.noteslibapp.data.model.SubjectInput
+import com.abhishek.noteslibapp.data.model.UnitItem
+import com.abhishek.noteslibapp.data.repository.NotesRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

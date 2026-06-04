@@ -1,4 +1,4 @@
-package com.muktasapp.noteslibapp.presentation.ui
+package com.abhishek.noteslibapp.presentation.ui
 
 import android.content.Context
 import android.util.Patterns
@@ -38,11 +38,11 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import com.muktasapp.noteslibapp.R
-import com.muktasapp.noteslibapp.presentation.viewmodel.AuthViewModel
+import com.abhishek.noteslibapp.R
+import com.abhishek.noteslibapp.presentation.viewmodel.AuthViewModel
 import androidx.compose.runtime.LaunchedEffect
 // Add this line with your other imports at the top!
-import com.muktasapp.noteslibapp.Result
+import com.abhishek.noteslibapp.Result
 
 
 

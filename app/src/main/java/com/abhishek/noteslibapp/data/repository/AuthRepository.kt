@@ -1,12 +1,10 @@
-package com.muktasapp.noteslibapp.data.repository
+package com.abhishek.noteslibapp.data.repository
 
 
-import com.muktasapp.noteslibapp.Result
-import com.muktasapp.noteslibapp.data.AppwriteHelper
-import com.muktasapp.noteslibapp.data.model.Users
+import com.abhishek.noteslibapp.Result
+import com.abhishek.noteslibapp.data.AppwriteHelper
+import com.abhishek.noteslibapp.data.model.Users
 import io.appwrite.ID
-import io.appwrite.models.User
-
 
 
 class AuthRepository {

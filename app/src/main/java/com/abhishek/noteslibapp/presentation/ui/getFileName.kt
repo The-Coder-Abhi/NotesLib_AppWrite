@@ -1,4 +1,4 @@
-package com.muktasapp.noteslibapp.presentation.ui
+package com.abhishek.noteslibapp.presentation.ui
 
 import android.content.Context
 import android.net.Uri

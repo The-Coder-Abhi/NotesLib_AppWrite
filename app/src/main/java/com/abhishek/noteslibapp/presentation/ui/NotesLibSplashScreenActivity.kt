@@ -1,4 +1,4 @@
-package com.muktasapp.noteslibapp.presentation.ui
+package com.abhishek.noteslibapp.presentation.ui
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -10,8 +10,8 @@ import android.widget.ImageView
 import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import com.muktasapp.noteslibapp.MainActivity
-import com.muktasapp.noteslibapp.R
+import com.abhishek.noteslibapp.MainActivity
+import com.abhishek.noteslibapp.R
 
 @SuppressLint("CustomSplashScreen")
 @Suppress("DEPRECATION")

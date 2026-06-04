@@ -1,4 +1,4 @@
-package com.muktasapp.noteslibapp.presentation.ui
+package com.abhishek.noteslibapp.presentation.ui
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.fillMaxSize
@@ -13,8 +13,6 @@ import androidx.compose.material3.NavigationBarItemDefaults
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -23,13 +21,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.navigation.NavController
-import com.muktasapp.noteslibapp.NavItem
-import com.muktasapp.noteslibapp.R
-import com.muktasapp.noteslibapp.presentation.ui.pages.AddNotesPage
-import com.muktasapp.noteslibapp.presentation.ui.pages.HomePage
-import com.muktasapp.noteslibapp.presentation.ui.pages.SearchNotesPage
-import com.muktasapp.noteslibapp.presentation.viewmodel.AuthViewModel
-import com.muktasapp.noteslibapp.presentation.viewmodel.NotesViewModel
+import com.abhishek.noteslibapp.NavItem
+import com.abhishek.noteslibapp.R
+import com.abhishek.noteslibapp.presentation.ui.pages.AddNotesPage
+import com.abhishek.noteslibapp.presentation.ui.pages.HomePage
+import com.abhishek.noteslibapp.presentation.ui.pages.SearchNotesPage
+import com.abhishek.noteslibapp.presentation.viewmodel.AuthViewModel
+import com.abhishek.noteslibapp.presentation.viewmodel.NotesViewModel
 
 @Composable
 fun HomeScreen(navController: NavController,authViewModel: AuthViewModel,notesViewModel: NotesViewModel){

@@ -1,4 +1,4 @@
-package com.muktasapp.noteslibapp
+package com.abhishek.noteslibapp
 
 sealed class Screen(val routes: String) {
     object LoginScreen: Screen("loginscreen")

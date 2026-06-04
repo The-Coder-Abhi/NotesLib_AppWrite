@@ -1,4 +1,4 @@
-package com.muktasapp.noteslibapp.presentation.ui.pages
+package com.abhishek.noteslibapp.presentation.ui.pages
 
 import android.widget.Toast
 import androidx.compose.foundation.layout.Arrangement
@@ -20,9 +20,7 @@ import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.Icon
 import androidx.compose.material3.OutlinedTextField
-import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextFieldColors
 import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
@@ -39,9 +37,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.text.input.ImeAction
 import androidx.navigation.NavController
-import com.muktasapp.noteslibapp.R
-import com.muktasapp.noteslibapp.presentation.viewmodel.AuthViewModel
-import com.muktasapp.noteslibapp.presentation.viewmodel.NotesViewModel
+import com.abhishek.noteslibapp.R
+import com.abhishek.noteslibapp.presentation.viewmodel.AuthViewModel
+import com.abhishek.noteslibapp.presentation.viewmodel.NotesViewModel
 
 @Composable
 fun SearchNotesPage(notesViewModel: NotesViewModel,authViewModel: AuthViewModel,navController: NavController) {

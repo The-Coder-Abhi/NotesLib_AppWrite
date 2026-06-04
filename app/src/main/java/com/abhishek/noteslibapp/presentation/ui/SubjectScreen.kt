@@ -1,12 +1,12 @@
-package com.muktasapp.noteslibapp.presentation.ui
+package com.abhishek.noteslibapp.presentation.ui
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.navigation.NavHostController
-import com.muktasapp.noteslibapp.presentation.viewmodel.AuthViewModel
-import com.muktasapp.noteslibapp.presentation.viewmodel.NotesViewModel
+import com.abhishek.noteslibapp.presentation.viewmodel.AuthViewModel
+import com.abhishek.noteslibapp.presentation.viewmodel.NotesViewModel
 
 @Composable
 fun SubjectScreen(noteId: String, navController: NavHostController,notesViewModel: NotesViewModel,authViewModel: AuthViewModel) {

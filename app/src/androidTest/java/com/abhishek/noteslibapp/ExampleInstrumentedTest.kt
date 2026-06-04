@@ -1,4 +1,4 @@
-package com.muktasapp.noteslibapp
+package com.abhishek.noteslibapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

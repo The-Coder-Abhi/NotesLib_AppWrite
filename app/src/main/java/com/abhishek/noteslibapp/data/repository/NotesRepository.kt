@@ -1,23 +1,18 @@
-package com.muktasapp.noteslibapp.data.repository
+package com.abhishek.noteslibapp.data.repository
 
 import android.content.Context
 import android.net.Uri
-import com.muktasapp.noteslibapp.data.AppwriteHelper
-import com.muktasapp.noteslibapp.data.getFileFromUri
-import com.muktasapp.noteslibapp.data.model.Chapter
-import com.muktasapp.noteslibapp.data.model.Note
-import com.muktasapp.noteslibapp.data.model.PdfFile
-import com.muktasapp.noteslibapp.data.model.Subject
-import com.muktasapp.noteslibapp.data.model.UnitItem
-import com.muktasapp.noteslibapp.domain.repository.INotesRepository
+import com.abhishek.noteslibapp.data.AppwriteHelper
+import com.abhishek.noteslibapp.data.getFileFromUri
+import com.abhishek.noteslibapp.data.model.Chapter
+import com.abhishek.noteslibapp.data.model.Note
+import com.abhishek.noteslibapp.data.model.PdfFile
+import com.abhishek.noteslibapp.data.model.Subject
+import com.abhishek.noteslibapp.data.model.UnitItem
+import com.abhishek.noteslibapp.domain.repository.INotesRepository
 import io.appwrite.ID
 import io.appwrite.Query
-import io.appwrite.extensions.toJson
 import io.appwrite.models.InputFile
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.asStateFlow
-import java.util.UUID
 
 class NotesRepository(): INotesRepository{
     private val db = AppwriteHelper.databases

@@ -1,24 +1,39 @@
 import org.gradle.kotlin.dsl.implementation
+import java.util.Properties
+import java.io.FileInputStream
 
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
-    id("com.google.gms.google-services")
 }
 
 android {
-    namespace = "com.muktasapp.noteslibapp"
+    namespace = "com.abhishek.noteslibapp"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.muktasapp.noteslibapp"
+        applicationId = "com.abhishek.noteslibapp"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        // Load properties
+        val properties = Properties()
+        val localPropertiesFile = rootProject.file("local.properties")
+        if (localPropertiesFile.exists()) {
+            properties.load(FileInputStream(localPropertiesFile))
+        }
+
+        // Create build config fields
+        buildConfigField("String", "APPWRITE_ENDPOINT", "\"${properties.getProperty("APPWRITE_ENDPOINT", "")}\"")
+        buildConfigField("String", "APPWRITE_PROJECT_ID", "\"${properties.getProperty("APPWRITE_PROJECT_ID", "")}\"")
+        buildConfigField("String", "APPWRITE_DATABASE_ID", "\"${properties.getProperty("APPWRITE_DATABASE_ID", "")}\"")
+        buildConfigField("String", "APPWRITE_BUCKET_ID", "\"${properties.getProperty("APPWRITE_BUCKET_ID", "")}\"")
+
     }
 
     buildTypes {
@@ -39,6 +54,7 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
 }
 

@@ -1,4 +1,4 @@
-package com.muktasapp.noteslibapp
+package com.abhishek.noteslibapp
 
 sealed class Result<out T> {
 

@@ -1,4 +1,4 @@
-package com.muktasapp.noteslibapp.presentation.ui
+package com.abhishek.noteslibapp.presentation.ui
 
 import android.content.Context
 import android.widget.Toast
@@ -20,8 +20,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import com.muktasapp.noteslibapp.R
-import com.muktasapp.noteslibapp.presentation.viewmodel.AuthViewModel
+import com.abhishek.noteslibapp.R
+import com.abhishek.noteslibapp.presentation.viewmodel.AuthViewModel
 
 @Composable
 fun VerifyScreen(authviewModel: AuthViewModel, navController: NavController){

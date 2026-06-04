@@ -1,4 +1,4 @@
-package com.muktasapp.noteslibapp.presentation
+package com.abhishek.noteslibapp.presentation
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -22,7 +22,6 @@ import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Description
 import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.AlertDialogDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.FloatingActionButton
@@ -46,9 +45,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
-import com.muktasapp.noteslibapp.data.model.PdfFile
-import com.muktasapp.noteslibapp.presentation.ui.getFileName
-import com.muktasapp.noteslibapp.presentation.viewmodel.NotesViewModel
+import com.abhishek.noteslibapp.data.model.PdfFile
+import com.abhishek.noteslibapp.presentation.ui.getFileName
+import com.abhishek.noteslibapp.presentation.viewmodel.NotesViewModel
 
 @Composable
 fun PDFScreen(

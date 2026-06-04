@@ -1,4 +1,4 @@
-package com.muktasapp.noteslibapp
+package com.abhishek.noteslibapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -22,18 +22,18 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import androidx.navigation.navDeepLink
-import com.muktasapp.noteslibapp.data.AppwriteHelper
-import com.muktasapp.noteslibapp.presentation.PDFScreen
-import com.muktasapp.noteslibapp.presentation.ui.ChapterScreen
-import com.muktasapp.noteslibapp.presentation.ui.HomeScreen
-import com.muktasapp.noteslibapp.presentation.ui.LoginScreen
-import com.muktasapp.noteslibapp.presentation.ui.SignUpScreen
-import com.muktasapp.noteslibapp.presentation.ui.SubjectScreen
-import com.muktasapp.noteslibapp.presentation.ui.UnitScreen
-import com.muktasapp.noteslibapp.presentation.ui.VerifyScreen
-import com.muktasapp.noteslibapp.ui.theme.NotesLibAppTheme
-import com.muktasapp.noteslibapp.presentation.viewmodel.AuthViewModel
-import com.muktasapp.noteslibapp.presentation.viewmodel.NotesViewModel
+import com.abhishek.noteslibapp.data.AppwriteHelper
+import com.abhishek.noteslibapp.presentation.PDFScreen
+import com.abhishek.noteslibapp.presentation.ui.ChapterScreen
+import com.abhishek.noteslibapp.presentation.ui.HomeScreen
+import com.abhishek.noteslibapp.presentation.ui.LoginScreen
+import com.abhishek.noteslibapp.presentation.ui.SignUpScreen
+import com.abhishek.noteslibapp.presentation.ui.SubjectScreen
+import com.abhishek.noteslibapp.presentation.ui.UnitScreen
+import com.abhishek.noteslibapp.presentation.ui.VerifyScreen
+import com.abhishek.noteslibapp.ui.theme.NotesLibAppTheme
+import com.abhishek.noteslibapp.presentation.viewmodel.AuthViewModel
+import com.abhishek.noteslibapp.presentation.viewmodel.NotesViewModel
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

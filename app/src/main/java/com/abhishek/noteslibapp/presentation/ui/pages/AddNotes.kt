@@ -1,8 +1,6 @@
-package com.muktasapp.noteslibapp.presentation.ui.pages
+package com.abhishek.noteslibapp.presentation.ui.pages
 
-import android.content.Context
 import android.widget.Toast
-import androidx.compose.animation.scaleIn
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -44,16 +42,15 @@ import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import com.muktasapp.noteslibapp.R
-import com.muktasapp.noteslibapp.data.model.ChapterInput
-import com.muktasapp.noteslibapp.data.model.SubjectInput
-import com.muktasapp.noteslibapp.data.model.UnitInput
-import com.muktasapp.noteslibapp.presentation.viewmodel.AuthViewModel
-import com.muktasapp.noteslibapp.presentation.viewmodel.NotesViewModel
+import com.abhishek.noteslibapp.R
+import com.abhishek.noteslibapp.data.model.ChapterInput
+import com.abhishek.noteslibapp.data.model.SubjectInput
+import com.abhishek.noteslibapp.data.model.UnitInput
+import com.abhishek.noteslibapp.presentation.viewmodel.AuthViewModel
+import com.abhishek.noteslibapp.presentation.viewmodel.NotesViewModel
 
 
 @Composable
