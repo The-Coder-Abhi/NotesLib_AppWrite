@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ui.NotesLibSplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/AppLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/notes_lib" />
+    <TextView
+        android:layout_below="@+id/AppLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/AppName"
+        android:text="@string/App_name"
+        android:fontFamily="@font/allura_regular"
+        android:textSize="48sp"
+        android:textColor="@color/Primary_color"/>
+    <TextView
+        android:id="@+id/from"
+        android:layout_below="@+id/AppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="from"
+        android:fontFamily="@font/allura_regular"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp"
+        android:textColor="@color/Primary_color"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/from"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/brandName"
+        android:textSize="32sp"
+        android:textFontWeight="700"
+        android:text="Abhishek"
+        android:fontFamily="@font/antic_font"
+        android:textColor="@color/Primary_color"/>
+<!--    <ImageView-->
+<!--        android:layout_below="@+id/from"-->
+<!--        android:id="@+id/brandLogo"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:contentDescription="@string/logo"-->
+<!--        android:src="@drawable/brand" />-->
+</RelativeLayout>
